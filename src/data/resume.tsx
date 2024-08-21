@@ -48,6 +48,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Gems Essence Infotech",
+      href: "https://gemsessence.com",
+      badges: [],
+      location: "Indore, India",
+      title: "Frontend Developer Intern",
+      logoUrl: "/gemsessence.jpg",
+      start: "Jun 2024",
+      end: "Jul 2024",
+      description:
+        "Developed a full-featured eCommerce platform utilizing React.js to deliver a seamless shopping experience for users. Developed and maintained a library of reusable components, streamlining the development process and ensuring consistent UI/UX across the application. Enhanced application performance by employing lazy loading and code splitting techniques, leading to a 25% reduction in initial load time.",
+    },
+    {
       company: "Rablo.in",
       href: "https://rablo.in",
       badges: [],
@@ -130,7 +142,7 @@ export const DATA = {
         "TailwindCSS",
         "Redis",
         "AWS S3",
-        "ffmpeg"
+        "ffmpeg",
       ],
       links: [
         {
@@ -158,7 +170,7 @@ export const DATA = {
         "Express.js",
         "MongoDB",
         "Redis",
-        "Stripe"
+        "Stripe",
       ],
       links: [
         {
@@ -171,7 +183,6 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
-    
   ],
   hackathons: [
     {

@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   name: "Ameya Shrivastava",
   initials: "DV",
-  url: "https://ameyash.vercel.app",
+  url: "https://ameyash.ameyashr.in",
   location: "India",
   locationLink: "https://www.google.com/maps/place/india",
   description: "Software Developer. I love building things and helping people.",
@@ -105,7 +105,7 @@ export const DATA = {
   projects: [
     {
       title: "BioEngine",
-      href: "https://bioengine.vercel.app",
+      href: "https://bioengine.ameyashr.in",
       // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -121,7 +121,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://bioengine.vercel.app",
+          href: "https://bioengine.ameyashr.in",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -131,23 +131,26 @@ export const DATA = {
     },
     {
       title: "CaptionMe",
-      href: "https://caption-me-pearl.vercel.app",
+      href: "https://captionme.ameyashr.in",
       // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
         "Developed a webapp integrating AWS S3 for video storage and AWS Transcribe for text-to-speech conversion. Enabled users to upload videos, receive automated captions, and edit them through a user-friendly interface.",
       technologies: [
         "Next.js",
+        "Express.js",
         "Typescript",
+        "AWS S3",
+        "AWS EC2",
+        "Nginx",
         "TailwindCSS",
         "Redis",
-        "AWS S3",
         "ffmpeg",
       ],
       links: [
         {
           type: "Website",
-          href: "https://caption-me-pearl.vercel.app",
+          href: "https://captionme.ameyashr.in",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -157,7 +160,7 @@ export const DATA = {
     },
     {
       title: "ChkOut",
-      href: "https://chkout-ecommerce.vercel.app",
+      href: "https://chkout.ameyashr.in",
       // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -175,7 +178,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chkout-ecommerce.vercel.app",
+          href: "https://chkout.ameyashr.in",
           icon: <Icons.globe className="size-3" />,
         },
       ],

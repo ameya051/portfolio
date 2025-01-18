@@ -9,12 +9,19 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { ContactForm } from "@/components/contact-form";
+import { Spotlight } from "@/components/ui/spotlight";
+import { AlarmClock, HeartPulse, LocateFixed } from "lucide-react";
+import Time from "@/components/time";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <Spotlight
+        className="fixed -top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -30,6 +37,18 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <div className="flex flex-wrap gap-1 h-full w-full">
+                  <Badge variant="outline" className="cursor-pointer group">
+                    <LocateFixed className="size-4 mr-1 group-hover:text-green-500" />
+                    {DATA.location}
+                  </Badge>
+                  <Badge variant="outline" className="cursor-pointer group">
+                    <Time />
+                  </Badge>
+                </div>
+              </BlurFade>
+
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -106,7 +125,7 @@ export default function Page() {
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+                <Badge className="cursor-pointer" key={skill}>{skill}</Badge>
               </BlurFade>
             ))}
           </div>

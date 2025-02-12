@@ -163,21 +163,22 @@ export const DATA = {
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "ChkOut",
-      href: "https://chkout.ameyashr.in",
+      title: "Spenz.",
+      href: "https://spenz.ameyashr.in",
       // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Developed key user features: Login/Register, Cart Management, Product Search/Filtering, Checkout, and Order History Viewing. Engineered an Admin Dashboard for real-time insights, seamless product management, and user oversight.",
+        "Designed and implemented a comprehensive financial tracking system with seamless UI/UX, CSV import, real-time data fetching using TanStack React Query, and a scalable backend with Hono.jsand PostgreSQL for efficient data processing.",
       technologies: [
-        "Next.js",
-        "TailwindCSS",
-        "Redux Toolkit",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Redis",
-        "Stripe",
+        "Nextjs",
+        "Honojs",
+        "TypeScript",
+        "ShadCN",
+        "React-Query",
+        "Zod",
+        "Zustand",
+        "PostgreSQL",
+        "Drizzle",
       ],
       links: [
         {
@@ -186,7 +187,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/chkout.png",
+      image: "/spenz.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },

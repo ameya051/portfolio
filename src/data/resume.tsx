@@ -10,7 +10,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/india",
   description: "Software Developer. I love building things and helping people.",
   summary:
-    "I am skilled in C/C++, Python, JavaScript, TypeScript, Next.js, Node.js, and AWS, among others. My technical expertise, combined with a strong focus on security and scalable architecture, allows me to deliver efficient and user-friendly solutions.",
+    "I am skilled Python, JavaScript, TypeScript, Next.js, Node.js, and AWS, among others. My technical expertise, combined with a strong focus on security and scalable architecture, allows me to deliver efficient and user-friendly solutions.",
   avatarUrl: "/me.jpg",
   skills: [
     "next.js",
@@ -51,6 +51,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Infograins",
+      href: "https://infograins.com",
+      badges: [],
+      location: "Remote",
+      title: "Fullstack Engineer Intern",
+      logoUrl: "/infograins.jpeg",
+      start: "Jan 2025",
+      end: "Apr 2025",
+      description:
+        "Enabled intelligent document summarization by integrating OpenAI's GPT-4 API into the backend pipeline, reducing manual processing time by 60% and improving content accuracy for end users. Improved API response time by 35% by refactoring Express.js middleware and optimizing MongoDB queries using indexes and aggregation pipelines. Reduced deployment downtime by 70% by containerizing services with Docker and configuring Nginx as a reverse proxy, streamlining CI/CD using GitHub Actions. Reduced form submission errors by 50% by integrating React Hook Form with schema-based validation using Zod, providing real-time feedback and improved UX."
+    },
     {
       company: "Gems Essence Infotech",
       href: "https://gemsessence.com",

@@ -1,4 +1,3 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -12,7 +11,6 @@ import { ContactForm } from "@/components/contact-form";
 import { Spotlight } from "@/components/ui/spotlight";
 import { AlarmClock, HeartPulse, LocateFixed } from "lucide-react";
 import Time from "@/components/time";
-import { GithubContributions } from "react-github-graph"
 
 const BLUR_FADE_DELAY = 0.04;
 

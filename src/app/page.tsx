@@ -12,6 +12,7 @@ import { ContactForm } from "@/components/contact-form";
 import { Spotlight } from "@/components/ui/spotlight";
 import { AlarmClock, HeartPulse, LocateFixed } from "lucide-react";
 import Time from "@/components/time";
+import { GithubContributions } from "react-github-graph"
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -69,6 +70,20 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+      <section id="skills">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <h2 className="text-xl font-bold">Skills</h2>
+          </BlurFade>
+          <div className="flex flex-wrap gap-1">
+            {DATA.skills.map((skill, id) => (
+              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge className="cursor-pointer" key={skill}>{skill}</Badge>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -115,20 +130,6 @@ export default function Page() {
               />
             </BlurFade>
           ))}
-        </div>
-      </section>
-      <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge className="cursor-pointer" key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
         </div>
       </section>
       <section id="projects">

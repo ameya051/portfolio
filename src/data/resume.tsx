@@ -13,22 +13,21 @@ export const DATA = {
     "I am skilled Python, JavaScript, TypeScript, Next.js, Node.js, and AWS, among others. My technical expertise, combined with a strong focus on security and scalable architecture, allows me to deliver efficient and user-friendly solutions.",
   avatarUrl: "/me.jpg",
   skills: [
-    "next.js",
-    "react.js",
-    "shadcn",
-    "tailwind",
-    "framer-motion",
-    "javascript",
-    "typescript",
-    "node.js",
-    "express.js",
-    "python",
-    "sql",
-    "mongoDB",
-    "postgres",
-    "redis",
-    "docker",
-    "aws",
+    "Next.js",
+    "React.js",
+    "ShadCN",
+    "Tailwind",
+    "Framer-motion",
+    "Javascript",
+    "Typescript",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "SQL",
+    "MongoDB",
+    "PostgreSQL",
+    "Redis",
+    "AWS",
     "git",
   ],
   contact: {
@@ -61,7 +60,7 @@ export const DATA = {
       start: "Jan 2025",
       end: "Apr 2025",
       description:
-        "Enabled intelligent document summarization by integrating OpenAI's GPT-4 API into the backend pipeline, reducing manual processing time by 60% and improving content accuracy for end users. Improved API response time by 35% by refactoring Express.js middleware and optimizing MongoDB queries using indexes and aggregation pipelines. Reduced deployment downtime by 70% by containerizing services with Docker and configuring Nginx as a reverse proxy, streamlining CI/CD using GitHub Actions. Reduced form submission errors by 50% by integrating React Hook Form with schema-based validation using Zod, providing real-time feedback and improved UX."
+        "Improved API response time by 15% through Express.js middleware refactoring and MongoDB query optimization. Deployed a production-ready environment on AWS EC2 with Nginx reverse proxy and HTTPS via Let’s Encrypt, achieving 99.9% uptime. Reduced form errors by integrating React Hook Form with Zod for real-time validation and better UX. Developed a note-taking and document Q&A platform using Next.js and OpenAI APIs, allowing contextual PDF interaction."
     },
     {
       company: "Gems Essence Infotech",
@@ -146,7 +145,7 @@ export const DATA = {
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "CaptionMe",
+      title: "CaptionMe (WIP)",
       href: "https://captionme.ameyashr.in",
       // dates: "Jan 2024 - Feb 2024",
       active: true,
@@ -160,7 +159,7 @@ export const DATA = {
         "AWS EC2",
         "Nginx",
         "TailwindCSS",
-        "Redis",
+        "CI/CD",
         "ffmpeg",
       ],
       links: [
@@ -180,7 +179,7 @@ export const DATA = {
       // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Designed and implemented a comprehensive financial tracking system with seamless UI/UX, CSV import, real-time data fetching using TanStack React Query, and a scalable backend with Hono.jsand PostgreSQL for efficient data processing.",
+        "Developed a financial tracking system with categorized transactions, budget alerts, and AI-powered spending insights using gemini-1.5-flash. Integrated React Query for real-time updates, ensuring a seamless and responsive user experience.",
       technologies: [
         "Nextjs",
         "Honojs",
@@ -191,6 +190,8 @@ export const DATA = {
         "Zustand",
         "PostgreSQL",
         "Drizzle",
+        "Inngest",
+        "Gemini API"
       ],
       links: [
         {

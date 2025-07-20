@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
-    images: ["/opengraph-image.jpg"],
+    images: ["/twitter-image.jpg"],
   },
   verification: {
     google: "",
